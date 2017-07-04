@@ -1,0 +1,225 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 7805 U?
+U 1 1 595B5167
+P 4050 2000
+F 0 "U?" H 4200 1804 50  0000 C CNN
+F 1 "7805" H 4050 2200 50  0000 C CNN
+F 2 "" H 4050 2000 50  0001 C CNN
+F 3 "" H 4050 2000 50  0001 C CNN
+	1    4050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC237 Q?
+U 1 1 595B51ED
+P 5800 2900
+F 0 "Q?" H 6000 2975 50  0000 L CNN
+F 1 "BC237" H 6000 2900 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 6000 2825 50  0001 L CIN
+F 3 "" H 5800 2900 50  0001 L CNN
+	1    5800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 595B525A
+P 5150 2900
+F 0 "R?" V 5230 2900 50  0000 C CNN
+F 1 "R" V 5150 2900 50  0000 C CNN
+F 2 "" V 5080 2900 50  0001 C CNN
+F 3 "" H 5150 2900 50  0001 C CNN
+	1    5150 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 595B528F
+P 6650 2700
+F 0 "R?" V 6750 2700 50  0000 C CNN
+F 1 "R" V 6650 2700 50  0000 C CNN
+F 2 "" V 6580 2700 50  0001 C CNN
+F 3 "" H 6650 2700 50  0001 C CNN
+	1    6650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 595B53C0
+P 6650 3350
+F 0 "D?" H 6650 3450 50  0000 C CNN
+F 1 "LED" H 6650 3250 50  0000 C CNN
+F 2 "" H 6650 3350 50  0001 C CNN
+F 3 "" H 6650 3350 50  0001 C CNN
+	1    6650 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L POT_TRIM RV?
+U 1 1 595B53E4
+P 4650 3300
+F 0 "RV?" V 4475 3300 50  0000 C CNN
+F 1 "POT_TRIM" V 4550 3300 50  0000 C CNN
+F 2 "" H 4650 3300 50  0001 C CNN
+F 3 "" H 4650 3300 50  0001 C CNN
+	1    4650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LDR07 R?
+U 1 1 595B542F
+P 4650 2350
+F 0 "R?" V 4450 2350 50  0000 C CNN
+F 1 "LDR07" V 4725 2350 50  0000 C TNN
+F 2 "Opto-Devices:Resistor_LDR_5.1x4.3_RM3.4" V 4825 2350 50  0001 C CNN
+F 3 "" H 4650 2300 50  0000 C CNN
+	1    4650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 595B546C
+P 5450 2200
+F 0 "D?" H 5450 2300 50  0000 C CNN
+F 1 "D" H 5450 2100 50  0000 C CNN
+F 2 "" H 5450 2200 50  0001 C CNN
+F 3 "" H 5450 2200 50  0001 C CNN
+	1    5450 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L 5V_RELAY RL?
+U 1 1 595B566D
+P 7750 3050
+F 0 "RL?" H 7400 4000 60  0000 C CNN
+F 1 "5V_RELAY" V 8200 3700 60  0000 C CNN
+F 2 "" H 7450 3350 60  0001 C CNN
+F 3 "" H 7450 3350 60  0001 C CNN
+	1    7750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J?
+U 1 1 595B5BAF
+P 3000 2000
+F 0 "J?" H 3000 2150 50  0000 C CNN
+F 1 "CONN_01X02" V 3100 2000 50  0000 C CNN
+F 2 "" H 3000 2000 50  0001 C CNN
+F 3 "" H 3000 2000 50  0001 C CNN
+	1    3000 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 J?
+U 1 1 595B5C0B
+P 8750 2500
+F 0 "J?" H 8750 2700 50  0000 C CNN
+F 1 "CONN_01X03" V 8850 2500 50  0000 C CNN
+F 2 "" H 8750 2500 50  0001 C CNN
+F 3 "" H 8750 2500 50  0001 C CNN
+	1    8750 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1950 3650 1950
+Wire Wire Line
+	4450 1950 7600 1950
+Wire Wire Line
+	5450 1950 5450 2050
+Wire Wire Line
+	4650 1950 4650 2200
+Connection ~ 4650 1950
+Wire Wire Line
+	4650 2500 4650 3150
+Wire Wire Line
+	5000 2900 4650 2900
+Connection ~ 4650 2900
+Wire Wire Line
+	5300 2900 5600 2900
+Wire Wire Line
+	5450 2350 6650 2350
+Wire Wire Line
+	5900 2350 5900 2700
+Wire Wire Line
+	3200 2050 3700 2050
+Wire Wire Line
+	3700 2050 3700 3750
+Wire Wire Line
+	3700 3750 7600 3750
+Wire Wire Line
+	5900 3750 5900 3100
+Wire Wire Line
+	4650 3450 4650 3750
+Connection ~ 4650 3750
+Wire Wire Line
+	4800 3300 5000 3300
+Wire Wire Line
+	5000 3300 5000 3750
+Connection ~ 5000 3750
+Wire Wire Line
+	4050 2250 4050 3750
+Connection ~ 4050 3750
+Wire Wire Line
+	6650 2350 6650 2550
+Connection ~ 5900 2350
+Wire Wire Line
+	6650 2850 6650 3200
+Wire Wire Line
+	6650 3750 6650 3500
+Connection ~ 5900 3750
+Connection ~ 5450 1950
+Wire Wire Line
+	7600 3750 7600 2850
+Connection ~ 6650 3750
+Wire Wire Line
+	8000 1950 8550 1950
+Wire Wire Line
+	8550 1950 8550 2400
+Wire Wire Line
+	8000 2850 8550 2850
+Wire Wire Line
+	8550 2850 8550 2600
+$EndSCHEMATC
